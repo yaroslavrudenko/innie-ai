@@ -176,7 +176,7 @@ The scope and exit gate of each phase, as written in [docs/IMPLEMENTATION_ROADMA
 | P6 | Cross-channel memory, digests, quiet hours, VIP contacts, an optional monitoring-only VPS, encrypted backups, recovery drills and alerting | Offline-host alert, no duplicate executor, encrypted backup and verified scratch restore |
 | P7 | Separately approved outbound integrations, one action type at a time, each with the minimum extra OAuth scopes, a dry run, a rollback plan and a kill switch. **P7 does not start without the owner's explicit approval.** | Owner explicitly approves each integration and its permitted action types, after security tests |
 
-The older phase labels (A–G in [docs/IMPLEMENTATION_SPEC.md §15](docs/IMPLEMENTATION_SPEC.md#15-execution-phases-and-human-gates), A–F in [CLAUDE.md](CLAUDE.md)) cover overlapping work. The master execution plan names P0–P7 as the canonical schedule.
+The older phase labels A–G in [docs/IMPLEMENTATION_SPEC.md §15](docs/IMPLEMENTATION_SPEC.md#15-execution-phases-and-human-gates) cover overlapping work. The master execution plan names P0–P7 as the canonical schedule.
 
 ## Getting started
 
@@ -250,7 +250,7 @@ Claude Code carries on with safe development work by itself. It stops for the ow
 
 | File | What it holds |
 |---|---|
-| [CLAUDE.md](CLAUDE.md) | Standing instructions for Claude Code: read the spec first, plus the security invariants (sending off by default, untrusted email and web content, no committed secrets, no paid services or account access without approval, no bypass of platform restrictions) |
+| [CLAUDE.md](CLAUDE.md) | Standing instructions for Claude Code: read the master plan and the spec first, implement phases P0–P7 in order starting with P0, plus the security invariants (sending off by default, untrusted email and web content, no committed secrets, no paid services or account access without approval, no bypass of platform restrictions) |
 | [CLAUDE_ADDENDUM.md](CLAUDE_ADDENDUM.md) | Additional mandatory instructions: read all specification documents, treat them as version-controlled requirements, update specs, ADRs, tests and runbooks alongside the code, and require exact human approval for external actions |
 | [docs/CLAUDE_KICKOFF_PROMPT.md](docs/CLAUDE_KICKOFF_PROMPT.md) | Launch commands and the copy-paste prompt that starts the build in Claude Code |
 | [docs/INNIE_CLAUDE_MASTER_EXECUTION_PLAN.md](docs/INNIE_CLAUDE_MASTER_EXECUTION_PLAN.md) | Execution procedure: the canonical P0–P7 schedule and its gates, security invariants, the delivery and evidence process, owner checkpoints, the verification matrix, documents to generate, and the definition of complete |

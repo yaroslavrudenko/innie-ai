@@ -231,7 +231,7 @@ claude
 
 Give Claude the message below:
 
-> Read `CLAUDE.md` and `docs/CLAUDE_MASTER_EXECUTION_PLAN.md`, then read every specification in the mandatory order. Audit the repository and verify current vendor APIs. Create `docs/IMPLEMENTATION_STATUS.md` with a phase-by-phase task list. Implement P0, then P1 end-to-end with real source code, migrations, Docker Compose, tests and operational documentation. Continue safe work without unnecessary confirmations. Pause only for owner checkpoints (OAuth, secrets, paid cloud, permissions, outbound actions). Keep all sending disabled. Run tests, report exact evidence, and commit changes to a feature branch. After P1, proceed sequentially through P2–P6; P7 requires explicit separate authorization. Never claim deployment or integrations are complete without verification.
+> Read `CLAUDE.md` and `docs/INNIE_CLAUDE_MASTER_EXECUTION_PLAN.md`, then read every specification in the mandatory order. Audit the repository and verify current vendor APIs. Create `docs/IMPLEMENTATION_STATUS.md` with a phase-by-phase task list. Implement P0, then P1 end-to-end with real source code, migrations, Docker Compose, tests and operational documentation. Continue safe work without unnecessary confirmations. Pause only for owner checkpoints (OAuth, secrets, paid cloud, permissions, outbound actions). Keep all sending disabled. Run tests, report exact evidence, and commit changes to a feature branch. After P1, proceed sequentially through P2–P6; P7 requires explicit separate authorization. Never claim deployment or integrations are complete without verification.
 
 ## 16. Definition of complete
 

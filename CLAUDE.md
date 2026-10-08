@@ -1,8 +1,8 @@
 # Innie AI — Claude Code Instructions
 
-Read `docs/IMPLEMENTATION_SPEC.md` before making changes.
+Read `docs/INNIE_CLAUDE_MASTER_EXECUTION_PLAN.md` and `docs/IMPLEMENTATION_SPEC.md` before making changes.
 
-Implement phases A–F incrementally with working code, tests, and documentation. Consult current official SDK/API docs before using interfaces. Do not claim tests passed without executing them.
+Implement phases P0–P7 in order, as defined in `docs/INNIE_CLAUDE_MASTER_EXECUTION_PLAN.md` (P7 only after separate explicit owner authorization), incrementally with working code, tests, and documentation. Consult current official SDK/API docs before using interfaces. Do not claim tests passed without executing them.
 
 Security invariants:
 - No outbound messages without explicit owner approval; `ALLOW_SEND=false` by default.
@@ -11,4 +11,4 @@ Security invariants:
 - Do not provision paid services or access accounts without approval.
 - Never bypass WhatsApp or LinkedIn platform restrictions.
 
-Begin with a repository audit and a phase-by-phase implementation checklist, then execute Phase A.
+Begin with a repository audit and a phase-by-phase implementation checklist, then execute Phase P0 and continue with P1.
